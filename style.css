@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 40px;
+    padding: 15px 40px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
@@ -25,7 +25,7 @@ body {
     align-items: center;
     gap: 6px;
     background: #ffffff;
-    padding: 5px 12px;
+    padding: 6px 14px;
     border-radius: 20px;
 }
 
@@ -46,25 +46,29 @@ body {
     color: #7b1fa2;
     padding: 2px 6px;
     border-radius: 4px;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: bold;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 15px;
+    align-items: center;
 }
 
 .nav-links a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 500;
-    font-size: 15px;
-    transition: opacity 0.2s;
+    font-size: 14px;
+    padding: 8px 18px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
 }
 
 .nav-links a:hover, .nav-links a.active {
-    opacity: 0.85;
-    text-decoration: underline;
+    background-color: #ffffff;
+    color: #512da8;
+   font-weight: bold;
 }
